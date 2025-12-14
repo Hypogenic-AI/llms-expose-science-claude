@@ -3,8 +3,8 @@
   "stages": {
     "resource_finder": {
       "status": "failed",
-      "started_at": "2025-12-14T16:51:06.345989",
-      "completed_at": "2025-12-14T16:55:36.443614",
+      "started_at": "2025-12-14T16:57:08.067742",
+      "completed_at": "2025-12-14T16:57:56.230784",
       "success": false,
       "outputs": {
         "papers_dir": "/data/hypogenicai/workspaces/llms-expose-science-claude/papers",
