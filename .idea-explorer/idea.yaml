@@ -1,0 +1,32 @@
+idea:
+  title: Can LLMs Expose What Science Refuses to See?
+  domain: artificial_intelligence
+  hypothesis: 'Large language models (LLMs) can be used not only to automate existing
+    scientific workflows, but also to systematically identify and expose important
+    scientific and societal problems that are under-researched or ignored, by analyzing
+    disparities between well-funded, benchmarked topics and those with high real-world
+    impact but low attention.
+
+    '
+  background:
+    description: AI for science currently accelerates existing research agendas, focusing
+      on well-funded and easily measurable problems, while neglecting messy, politically
+      inconvenient, or low-profit issues that significantly affect real lives. For
+      example, gestational diabetes mellitus (GDM) and chronic disorders like endometriosis
+      are underfunded and under-researched due to their association with stigmatized
+      topics such as pregnancy, menstruation, and chronic pain. This pattern extends
+      beyond biomedicine to fields like education, social care, and public health,
+      where the most challenging problems are often overlooked by academic models.
+      The idea proposes using LLMs as "gap detectors" that analyze both scientific
+      outputs (papers, grants, benchmarks) and real-world evidence (clinical notes,
+      incident reports, patient forums) to surface areas where societal pain is high
+      but scientific attention is low, thereby making science more accountable to
+      real-world needs.
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/68eUHtLQpxwQ1MuH6bbu
+    idea_id: can_llms_expose_what_science_r_20251214_164530_c20742ff
+    created_at: '2025-12-14T16:45:30.965664'
+    status: submitted
+    github_repo_name: llms-expose-science-claude
+    github_repo_url: https://github.com/Hypogenic-AI/llms-expose-science-claude
