@@ -11,7 +11,7 @@
       },
       "log_file": "/data/hypogenicai/workspaces/llms-expose-science-claude/logs/resource_finder_claude.log",
       "transcript_file": "/data/hypogenicai/workspaces/llms-expose-science-claude/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 48.162259340286255
+      "elapsed_time": 303.01733231544495
     }
   },
   "work_dir": "/data/hypogenicai/workspaces/llms-expose-science-claude"
