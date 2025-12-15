@@ -1,0 +1,390 @@
+{
+  "config": {
+    "seed": 42,
+    "n_topics_per_domain": 10,
+    "llm_trials": 2,
+    "temperature": 0.3,
+    "max_tokens": 500,
+    "bootstrap_n": 1000
+  },
+  "timestamp": "2025-12-14T18:05:52.793077",
+  "model": "openai/gpt-4o",
+  "topics": [
+    {
+      "id": "t1",
+      "name": "Large Language Model Pre-training",
+      "description": "Training massive neural language models on internet-scale text corpora for general-purpose AI",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "medium"
+    },
+    {
+      "id": "t2",
+      "name": "Deep Reinforcement Learning for Games",
+      "description": "Using deep learning combined with reinforcement learning to master complex games like Go, Chess, and video games",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "low"
+    },
+    {
+      "id": "t3",
+      "name": "Computer Vision for Autonomous Vehicles",
+      "description": "Developing perception systems for self-driving cars using cameras, LiDAR, and sensor fusion",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "medium"
+    },
+    {
+      "id": "t4",
+      "name": "Breast Cancer Detection with AI",
+      "description": "Using machine learning to analyze mammograms and detect early signs of breast cancer",
+      "domain": "Medicine",
+      "expected_attention": "high",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t5",
+      "name": "Drug Discovery with Deep Learning",
+      "description": "Applying neural networks to predict molecular properties and accelerate pharmaceutical development",
+      "domain": "Medicine",
+      "expected_attention": "high",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t6",
+      "name": "Gestational Diabetes Mellitus Management",
+      "description": "Developing tools to monitor and manage diabetes that develops during pregnancy, affecting 14% of pregnancies globally",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t7",
+      "name": "Endometriosis Diagnosis and Treatment",
+      "description": "Research on chronic condition causing tissue similar to uterine lining to grow outside the uterus, affecting 10% of women",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t8",
+      "name": "AI for Low-Resource Languages",
+      "description": "Developing NLP technologies for the 7000+ languages spoken globally that have minimal digital representation",
+      "domain": "AI/ML",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t9",
+      "name": "Neglected Tropical Diseases Detection",
+      "description": "Using AI to diagnose diseases like Chagas, leishmaniasis, and schistosomiasis affecting 1+ billion people in poverty",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t10",
+      "name": "Small-Scale Farmer Decision Support",
+      "description": "AI systems to help subsistence farmers in developing regions make planting, irrigation, and harvest decisions",
+      "domain": "Agriculture",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t11",
+      "name": "Chronic Pain Assessment and Management",
+      "description": "Developing objective measures and personalized treatments for chronic pain affecting 20% of adults globally",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t12",
+      "name": "Maternal Mortality Risk Prediction",
+      "description": "Using AI to predict and prevent maternal deaths, especially in low-resource settings with high maternal mortality",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t13",
+      "name": "AI for Disability Assistance",
+      "description": "Developing AI-powered tools to assist people with physical and cognitive disabilities in daily life",
+      "domain": "AI/ML",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t14",
+      "name": "Quantum Computing Error Correction",
+      "description": "Developing algorithms to detect and correct errors in quantum computers to enable practical quantum advantage",
+      "domain": "Computing",
+      "expected_attention": "medium",
+      "expected_impact": "medium"
+    },
+    {
+      "id": "t15",
+      "name": "Cryptocurrency Mining Optimization",
+      "description": "Improving the efficiency of proof-of-work algorithms for Bitcoin and other cryptocurrency mining",
+      "domain": "Computing",
+      "expected_attention": "medium",
+      "expected_impact": "low"
+    },
+    {
+      "id": "t16",
+      "name": "Social Media Recommendation Algorithms",
+      "description": "Developing algorithms to personalize content feeds and maximize user engagement on social platforms",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "low"
+    },
+    {
+      "id": "t17",
+      "name": "Climate Change Prediction Models",
+      "description": "Using machine learning to improve climate predictions and model the impacts of global warming",
+      "domain": "Environment",
+      "expected_attention": "medium",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t18",
+      "name": "Mental Health Chatbots",
+      "description": "AI-powered conversational agents providing mental health support and crisis intervention",
+      "domain": "Medicine",
+      "expected_attention": "medium",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t19",
+      "name": "Rare Disease Diagnosis AI",
+      "description": "Using AI to accelerate diagnosis of rare diseases affecting small patient populations",
+      "domain": "Medicine",
+      "expected_attention": "medium",
+      "expected_impact": "medium"
+    },
+    {
+      "id": "t20",
+      "name": "Educational AI for Underserved Communities",
+      "description": "Developing AI tutoring systems accessible to students in low-income and rural areas globally",
+      "domain": "Education",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    }
+  ],
+  "llm_scores": {
+    "t1": {
+      "attention_score": 10.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "Large language model pre-training is a highly active research area with numerous publications and significant academic focus.",
+      "impact_reasoning": "This technology has substantial societal impact, influencing industries, communication, and access to information for billions of people.",
+      "model": "openai/gpt-4o"
+    },
+    "t2": {
+      "attention_score": 9.0,
+      "impact_score": 4.0,
+      "attention_reasoning": "Deep reinforcement learning for games is a highly active research area with significant contributions from major tech companies and academic institutions.",
+      "impact_reasoning": "While it has advanced AI capabilities and influenced game development, its direct impact on broader societal well-being is limited.",
+      "model": "openai/gpt-4o"
+    },
+    "t3": {
+      "attention_score": 9.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "Computer vision for autonomous vehicles is a highly active research area with significant contributions from academia and industry.",
+      "impact_reasoning": "This technology has the potential to revolutionize transportation, improve road safety, and enhance mobility for diverse populations.",
+      "model": "openai/gpt-4o"
+    },
+    "t4": {
+      "attention_score": 9.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "Breast cancer detection with AI is a highly active research area with numerous publications due to its potential to revolutionize early diagnosis.",
+      "impact_reasoning": "Early detection of breast cancer significantly improves treatment outcomes and survival rates, affecting millions of women globally.",
+      "model": "openai/gpt-4o"
+    },
+    "t5": {
+      "attention_score": 8.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "Drug discovery with deep learning is a rapidly growing field with significant research attention due to its potential to revolutionize pharmaceutical development.",
+      "impact_reasoning": "This topic has a high societal impact as it can significantly improve drug discovery efficiency and effectiveness, potentially benefiting millions of patients worldwide.",
+      "model": "openai/gpt-4o"
+    },
+    "t6": {
+      "attention_score": 7.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "Gestational Diabetes Mellitus Management is a well-researched area with numerous studies focusing on its diagnosis, treatment, and management.",
+      "impact_reasoning": "The condition affects a significant percentage of pregnancies globally and has important implications for maternal and fetal health, making it a high-impact area for societal well-being.",
+      "model": "openai/gpt-4o"
+    },
+    "t7": {
+      "attention_score": 6.0,
+      "impact_score": 7.0,
+      "attention_reasoning": "Endometriosis is a growing field of study with increasing research interest due to its prevalence and impact on women's health.",
+      "impact_reasoning": "Endometriosis significantly affects the quality of life for millions of women worldwide, making it a critical area for improving health outcomes.",
+      "model": "openai/gpt-4o"
+    },
+    "t8": {
+      "attention_score": 6.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "The topic is gaining traction with increasing research efforts in NLP for underrepresented languages.",
+      "impact_reasoning": "Improving NLP for low-resource languages can significantly enhance communication and access to information for millions of speakers globally.",
+      "model": "openai/gpt-4o"
+    },
+    "t9": {
+      "attention_score": 6.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "The use of AI in diagnosing neglected tropical diseases is an emerging field with growing research interest but not yet a major focus.",
+      "impact_reasoning": "This topic has a high societal impact as it addresses diseases affecting over a billion people living in poverty, potentially improving health outcomes significantly.",
+      "model": "openai/gpt-4o"
+    },
+    "t10": {
+      "attention_score": 6.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "There is growing academic interest in applying AI to agriculture, particularly in developing regions, but it is not yet a dominant research area.",
+      "impact_reasoning": "Improving decision-making for small-scale farmers can significantly enhance food security and livelihoods for millions in developing regions.",
+      "model": "openai/gpt-4o"
+    },
+    "t11": {
+      "attention_score": 8.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "Chronic pain management is a highly active research area due to its prevalence and complexity, with numerous studies and dedicated research groups.",
+      "impact_reasoning": "Chronic pain significantly affects the quality of life for millions globally, making its effective management crucial for societal well-being.",
+      "model": "openai/gpt-4o"
+    },
+    "t12": {
+      "attention_score": 7.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "The use of AI in healthcare, particularly for predicting maternal mortality, is an emerging field with growing research interest due to advancements in AI and its potential applications in low-resource settings.",
+      "impact_reasoning": "Maternal mortality is a critical global health issue, and improving prediction and prevention methods can significantly enhance maternal health outcomes, especially in regions with high mortality rates.",
+      "model": "openai/gpt-4o"
+    },
+    "t13": {
+      "attention_score": 7.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "AI for disability assistance is a growing field with increasing research interest due to advancements in AI and accessibility technologies.",
+      "impact_reasoning": "This topic has significant societal impact as it can greatly enhance the quality of life for millions of people with disabilities by providing them with greater independence and integration into society.",
+      "model": "openai/gpt-4o"
+    },
+    "t14": {
+      "attention_score": 8.0,
+      "impact_score": 7.0,
+      "attention_reasoning": "Quantum computing error correction is a highly active research area with significant academic interest due to its critical role in advancing quantum computing.",
+      "impact_reasoning": "While not yet affecting billions directly, successful error correction in quantum computing could revolutionize industries by solving complex problems currently intractable for classical computers.",
+      "model": "openai/gpt-4o"
+    },
+    "t15": {
+      "attention_score": 7.0,
+      "impact_score": 5.0,
+      "attention_reasoning": "Cryptocurrency mining optimization is a significant area of research due to the high energy consumption and economic implications associated with mining activities.",
+      "impact_reasoning": "While optimizing mining efficiency can reduce environmental impact and operational costs, it primarily affects specific industries and does not have a direct, widespread impact on human well-being.",
+      "model": "openai/gpt-4o"
+    },
+    "t16": {
+      "attention_score": 8.0,
+      "impact_score": 9.0,
+      "attention_reasoning": "Social media recommendation algorithms are a highly active research area due to their complexity and relevance to major tech companies.",
+      "impact_reasoning": "These algorithms significantly influence information consumption, social interactions, and mental health for billions of users globally.",
+      "model": "openai/gpt-4o"
+    },
+    "t17": {
+      "attention_score": 9.0,
+      "impact_score": 10.0,
+      "attention_reasoning": "Climate change prediction models using machine learning are a highly active research area with significant academic interest and numerous publications.",
+      "impact_reasoning": "Improving climate predictions is critically important for global policy-making and adaptation strategies, affecting billions of people worldwide.",
+      "model": "openai/gpt-4o"
+    },
+    "t18": {
+      "attention_score": 7.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "Mental health chatbots are a growing area of research due to advancements in AI and the increasing need for accessible mental health support.",
+      "impact_reasoning": "These chatbots have significant societal impact by providing scalable mental health support and crisis intervention, especially in underserved areas.",
+      "model": "openai/gpt-4o"
+    },
+    "t19": {
+      "attention_score": 6.0,
+      "impact_score": 7.0,
+      "attention_reasoning": "The use of AI in rare disease diagnosis is a growing field with increasing academic interest, but it is still emerging compared to more established AI applications.",
+      "impact_reasoning": "While it directly affects a smaller population, the impact on those individuals' lives is significant, and advancements could lead to broader implications for healthcare diagnostics.",
+      "model": "openai/gpt-4o"
+    },
+    "t20": {
+      "attention_score": 6.0,
+      "impact_score": 8.0,
+      "attention_reasoning": "The field of AI in education is growing, with increasing interest in applications for underserved communities.",
+      "impact_reasoning": "Educational AI for underserved communities has the potential to significantly improve access to quality education and reduce educational disparities globally.",
+      "model": "openai/gpt-4o"
+    }
+  },
+  "gap_identification": {
+    "model": "openai/gpt-4o",
+    "gaps": [
+      {
+        "topic": "Chronic Pain Management",
+        "description": "Research into non-opioid treatments and understanding the mechanisms of chronic pain.",
+        "impact_explanation": "Chronic pain affects millions worldwide, significantly impacting quality of life and productivity, and leading to high healthcare costs.",
+        "attention_explanation": "Research is often underfunded due to the complexity of pain mechanisms and the focus on more lucrative pharmaceutical solutions.",
+        "estimated_impact_score": 9,
+        "estimated_attention_score": 4
+      },
+      {
+        "topic": "Mental Health in Adolescents",
+        "description": "Understanding and addressing mental health issues among teenagers, including anxiety and depression.",
+        "impact_explanation": "Adolescent mental health issues can lead to lifelong challenges, affecting education, relationships, and overall well-being.",
+        "attention_explanation": "Stigma around mental health, combined with limited funding and the complexity of psychological research, results in less attention.",
+        "estimated_impact_score": 10,
+        "estimated_attention_score": 5
+      },
+      {
+        "topic": "Antimicrobial Resistance",
+        "description": "Research on new antibiotics and alternative treatments to combat resistant strains of bacteria.",
+        "impact_explanation": "Antimicrobial resistance threatens global health, leading to longer hospital stays, higher medical costs, and increased mortality.",
+        "attention_explanation": "The financial return on investment for developing new antibiotics is low, leading to limited interest from pharmaceutical companies.",
+        "estimated_impact_score": 10,
+        "estimated_attention_score": 3
+      },
+      {
+        "topic": "Climate Change Adaptation Strategies",
+        "description": "Developing practical strategies for communities to adapt to the impacts of climate change.",
+        "impact_explanation": "Climate change affects food security, health, and infrastructure, making adaptation crucial for survival and resilience.",
+        "attention_explanation": "Research funding tends to focus more on mitigation rather than adaptation, and political factors can influence research priorities.",
+        "estimated_impact_score": 9,
+        "estimated_attention_score": 4
+      },
+      {
+        "topic": "Sleep Disorders",
+        "description": "Research on the causes and treatments for sleep disorders like insomnia and sleep apnea.",
+        "impact_explanation": "Sleep disorders are linked to numerous health issues, including cardiovascular diseases, mental health disorders, and reduced productivity.",
+        "attention_explanation": "Sleep research is often underfunded and overshadowed by other health priorities, despite its widespread impact.",
+        "estimated_impact_score": 8,
+        "estimated_attention_score": 5
+      }
+    ],
+    "raw_response": "```json\n{\n  \"gaps\": [\n    {\n      \"topic\": \"Chronic Pain Management\",\n      \"description\": \"Research into non-opioid treatments and understanding the mechanisms of chronic pain.\",\n      \"impact_explanation\": \"Chronic pain affects millions worldwide, significantly impacting quality of life and productivity, and leading to high healthcare costs.\",\n      \"attention_explanation\": \"Research is often underfunded due to the complexity of pain mechanisms and the focus on more lucrative pharmaceutical solutions.\",\n      \"estimated_impact_score\": 9,\n      \"estimated_attention_score\": 4\n    },\n    {\n      \"topic\": \"Mental Health in Adolescents\",\n      \"description\": \"Understanding and addressing mental health issues among teenagers, including anxiety and depression.\",\n      \"impact_explanation\": \"Adolescent mental health issues can lead to lifelong challenges, affecting education, relationships, and overall well-being.\",\n      \"attention_explanation\": \"Stigma around mental health, combined with limited funding and the complexity of psychological research, results in less attention.\",\n      \"estimated_impact_score\": 10,\n      \"estimated_attention_score\": 5\n    },\n    {\n      \"topic\": \"Antimicrobial Resistance\",\n      \"description\": \"Research on new antibiotics and alternative treatments to combat resistant strains of bacteria.\",\n      \"impact_explanation\": \"Antimicrobial resistance threatens global health, leading to longer hospital stays, higher medical costs, and increased mortality.\",\n      \"attention_explanation\": \"The financial return on investment for developing new antibiotics is low, leading to limited interest from pharmaceutical companies.\",\n      \"estimated_impact_score\": 10,\n      \"estimated_attention_score\": 3\n    },\n    {\n      \"topic\": \"Climate Change Adaptation Strategies\",\n      \"description\": \"Developing practical strategies for communities to adapt to the impacts of climate change.\",\n      \"impact_explanation\": \"Climate change affects food security, health, and infrastructure, making adaptation crucial for survival and resilience.\",\n      \"attention_explanation\": \"Research funding tends to focus more on mitigation rather than adaptation, and political factors can influence research priorities.\",\n      \"estimated_impact_score\": 9,\n      \"estimated_attention_score\": 4\n    },\n    {\n      \"topic\": \"Sleep Disorders\",\n      \"description\": \"Research on the causes and treatments for sleep disorders like insomnia and sleep apnea.\",\n      \"impact_explanation\": \"Sleep disorders are linked to numerous health issues, including cardiovascular diseases, mental health disorders, and reduced productivity.\",\n      \"attention_explanation\": \"Sleep research is often underfunded and overshadowed by other health priorities, despite its widespread impact.\",\n      \"estimated_impact_score\": 8,\n      \"estimated_attention_score\": 5\n    }\n  ]\n}\n```"
+  },
+  "metrics": {
+    "n_valid": 20,
+    "attention_correlation": {
+      "spearman_r": 0.7579141549453576,
+      "p_value": 0.00010825120206883777
+    },
+    "impact_correlation": {
+      "spearman_r": 0.4213765707648504,
+      "p_value": 0.06426138692783544
+    },
+    "gap_identification": {
+      "n_true_gaps": 9,
+      "n_other": 11,
+      "mean_gap_score_true": 1.6666666666666667,
+      "mean_gap_score_other": -0.45454545454545453,
+      "t_statistic": 3.2174699184384514,
+      "p_value": 0.0047754516925259905,
+      "effect_size_d": 1.1838481044594575
+    }
+  },
+  "summary_statistics": {
+    "mean_attention": 7.45,
+    "std_attention": 1.2763022245616642,
+    "mean_impact": 7.95,
+    "std_impact": 1.4317821063276353,
+    "mean_gap": 0.5,
+    "std_gap": 1.7917941611104424
+  }
+}

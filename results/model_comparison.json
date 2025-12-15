@@ -1,0 +1,193 @@
+{
+  "timestamp": "2025-12-14T18:07:11.732002",
+  "models": [
+    "openai/gpt-4o",
+    "anthropic/claude-3.5-sonnet"
+  ],
+  "topics": [
+    {
+      "id": "t1",
+      "name": "Large Language Model Pre-training",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "medium"
+    },
+    {
+      "id": "t2",
+      "name": "Deep Reinforcement Learning for Games",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "low"
+    },
+    {
+      "id": "t3",
+      "name": "Breast Cancer Detection with AI",
+      "domain": "Medicine",
+      "expected_attention": "high",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t4",
+      "name": "Drug Discovery with Deep Learning",
+      "domain": "Medicine",
+      "expected_attention": "high",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t5",
+      "name": "Gestational Diabetes Mellitus Management",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t6",
+      "name": "Endometriosis Diagnosis and Treatment",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t7",
+      "name": "AI for Low-Resource Languages",
+      "domain": "AI/ML",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t8",
+      "name": "Neglected Tropical Diseases Detection",
+      "domain": "Medicine",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t9",
+      "name": "Small-Scale Farmer Decision Support",
+      "domain": "Agriculture",
+      "expected_attention": "low",
+      "expected_impact": "high"
+    },
+    {
+      "id": "t10",
+      "name": "Social Media Recommendation Algorithms",
+      "domain": "AI/ML",
+      "expected_attention": "high",
+      "expected_impact": "low"
+    }
+  ],
+  "model_results": {
+    "openai/gpt-4o": {
+      "t1": {
+        "attention": 9.0,
+        "impact": 8.0,
+        "gap": -1.0
+      },
+      "t2": {
+        "attention": 9.0,
+        "impact": 6.0,
+        "gap": -3.0
+      },
+      "t3": {
+        "attention": 9.0,
+        "impact": 10.0,
+        "gap": 1.0
+      },
+      "t4": {
+        "attention": 9.0,
+        "impact": 9.0,
+        "gap": 0.0
+      },
+      "t5": {
+        "attention": 8.0,
+        "impact": 9.0,
+        "gap": 1.0
+      },
+      "t6": {
+        "attention": 8.0,
+        "impact": 9.0,
+        "gap": 1.0
+      },
+      "t7": {
+        "attention": 7.0,
+        "impact": 9.0,
+        "gap": 2.0
+      },
+      "t8": {
+        "attention": 7.0,
+        "impact": 9.0,
+        "gap": 2.0
+      },
+      "t9": {
+        "attention": 7.0,
+        "impact": 8.0,
+        "gap": 1.0
+      },
+      "t10": {
+        "attention": 8.0,
+        "impact": 7.0,
+        "gap": -1.0
+      }
+    },
+    "anthropic/claude-3.5-sonnet": {
+      "t1": {
+        "attention": 9.0,
+        "impact": 8.0,
+        "gap": -1.0
+      },
+      "t2": {
+        "attention": 9.0,
+        "impact": 4.0,
+        "gap": -5.0
+      },
+      "t3": {
+        "attention": 9.0,
+        "impact": 10.0,
+        "gap": 1.0
+      },
+      "t4": {
+        "attention": 8.0,
+        "impact": 9.0,
+        "gap": 1.0
+      },
+      "t5": {
+        "attention": 7.0,
+        "impact": 9.0,
+        "gap": 2.0
+      },
+      "t6": {
+        "error": "Extra data: line 3 column 1 (char 31)"
+      },
+      "t7": {
+        "error": "Extra data: line 3 column 1 (char 31)"
+      },
+      "t8": {
+        "error": "Extra data: line 3 column 1 (char 31)"
+      },
+      "t9": {
+        "error": "Extra data: line 3 column 1 (char 31)"
+      },
+      "t10": {
+        "error": "Extra data: line 3 column 1 (char 31)"
+      }
+    }
+  },
+  "agreement_metrics": {
+    "n_topics": 5,
+    "attention_correlation": {
+      "pearson_r": 0.8750000000000002,
+      "p_value": 0.05204554874375868
+    },
+    "impact_correlation": {
+      "pearson_r": 0.9840627249521832,
+      "p_value": 0.0024094283168003363
+    },
+    "gap_correlation": {
+      "pearson_r": 0.973610120462327,
+      "p_value": 0.005125819663542253
+    },
+    "mean_attention_diff": 0.4,
+    "mean_impact_diff": 0.4,
+    "top_gap_agreement": 1.0
+  }
+}
